@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "avatar": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
+    "content": "This is the first tweet content.",
+    "author": "John Doe"
+  },
+  {
+    "id": "2",
+    "avatar": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
+    "content": "This is the second tweet content.",
+    "author": "Jane Smith"
+  },
+  {
+    "id": "3",
+    "avatar": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
+    "content": "This is another tweet with a different author.",
+    "author": "Alice Johnson"
+  }
+]
