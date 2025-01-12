@@ -14,10 +14,10 @@ const TweetForm = () => {
       .required("Tweet cannot be empty"),
   });
 
-  const handleSubmit = async (values: { tweet: string }, { resetForm }: any) => {
+  const handleSubmit = async (values: { tweet: string }, { resetForm }: { resetForm: () => void }) => {
     await postTweet(values);
-    resetForm(); // Reset the form only if the tweet is successfully posted
-  };
+    resetForm(); 
+  }
 
   return (
     <Formik
