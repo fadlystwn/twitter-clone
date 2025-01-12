@@ -2,7 +2,7 @@ import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { TweetState, TweetType } from '../../types';
 
 const initialState: TweetState = {
-  tweets: [],
+  tweets: [], loading: false, error: null 
 };
 
 const tweetSlice = createSlice({

@@ -8,4 +8,6 @@ export interface TweetType {
 
 export interface TweetState {
   tweets: TweetType[];
+  loading: boolean;
+  error: string  | null;
 }

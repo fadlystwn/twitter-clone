@@ -12,7 +12,7 @@ export const usePostTweet = () => {
     setIsLoading(true);
     setError(null);
 
-    try {
+    try { 
       const response = await fetch("/api/tweets", {
         method: "POST",
         headers: {
